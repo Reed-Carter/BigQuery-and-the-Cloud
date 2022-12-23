@@ -127,6 +127,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+venv-codereview
 
 # Spyder project settings
 .spyderproject
@@ -157,3 +158,4 @@ Footer navigation
 Terms
 Privacy
 Security
+
