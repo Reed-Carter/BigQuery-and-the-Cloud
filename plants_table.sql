@@ -1,4 +1,4 @@
---create a table named 'flower_shop' in the plants data set
+--create a table named 'flower_shop' in the plants data set and schema
 CREATE TABLE IF NOT EXISTS plants.flower_shop (
   plant_id integer NOT NULL,
   species_name STRING DEFAULT NULL,
@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS plants.flower_shop (
   zone INTEGER DEFAULT NULL,
   price FLOAT64 DEFAULT NULL,
 );
---schema was automatically created by bigquery when table was created
+
 --inserts values into the columns of the flower_shop dataset
 INSERT plants.flower_shop (plant_id, species_name, variety_name, zone, price)
 VALUES(1, "monstera", "swiss_cheese", 5, 20.25),
